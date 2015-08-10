@@ -1,8 +1,22 @@
 # apostas-fullstack
 
-npm install
+npm install -g generator-angular-fullstack
 
-bower install
+yo angular-fullstack teste
 
-http://www.mongodb.org/downloads
-http://robomongo.org/
+- http://www.mongodb.org/downloads
+- http://robomongo.org/
+
+----------------------------------------------
+
+mkdir data
+cd data
+mkdir db
+cd db
+
+mongod -dbpath .
+
+
+---------------------------------------
+
+grunt serve
